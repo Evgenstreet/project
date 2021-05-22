@@ -58,7 +58,11 @@ definitions:
     properties:
       id:
         type: string
+      rate:
+        type: string
       group:
+        type: string
+      group2:
         type: string
       image:
         type: string

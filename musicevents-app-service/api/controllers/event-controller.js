@@ -53,7 +53,9 @@ function getEvents(req, res) {
   res.json([{
 
     "id": "" + faker.random.number(),
+    "rate": "" + faker.random.number(5-10),
     "group": "" + faker.company.companyName(),
+    "group2": "" + faker.company.companyName(),
     "location": "Minsk, Independece av. 182",
     "image": "food.jpg",
     "date": date,
